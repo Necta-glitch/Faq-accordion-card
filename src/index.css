@@ -40,7 +40,7 @@ h1{
     }
     .image::-webkit-textfield-decoration-container{
         content: ""; /* Crea un pseudo-elemento para la segunda imagen */
-        background-image: url(./images//illustration-box-desktop.svg);
+        background-image: url(/src/images//illustration-box-desktop.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-size: 100px 100px;
@@ -50,7 +50,7 @@ h1{
     .img-desktop {
         
         display: flex;
-        background-image: url(./images//bg-pattern-desktop.svg);
+        background-image: url(/src/images//bg-pattern-desktop.svg);
         background-repeat: no-repeat;
         background-size: 1000px 1000px;
         background-position-x: -660px;
